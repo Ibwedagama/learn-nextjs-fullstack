@@ -1,7 +1,7 @@
 type Props = {
-  authorName: String
-  title: String
-  content: String
+  authorName: string
+  title: string
+  content: string
 }
 
 export default function Post({ authorName, title, content }: Props) {
